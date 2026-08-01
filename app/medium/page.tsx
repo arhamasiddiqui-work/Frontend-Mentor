@@ -1,5 +1,3 @@
 export default function Page() {
-  return (
-    <div>Medium Clone</div>
-  )
+  return <div>Medium Clone</div>;
 }
