@@ -1,4 +1,4 @@
-import MediumFooter from "@/components/web/medium/footer/component";
+import MediumFooter from "@/components/web/medium/main footer/component";
 import MediumHeader from "@/components/web/medium/header/component";
 import MediumMain from "@/components/web/medium/main/component";
 
