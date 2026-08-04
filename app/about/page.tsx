@@ -1,3 +1,4 @@
+import Mediumfooter from "@/components/web/medium/footer/component";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
@@ -21,9 +22,6 @@ export default function About() {
           >
             Start writing
           </Link>
-          {/* <Link href="/membership" className="rounded-full bg-white px-4 py-2 font-semibold text-black">
-            Become a member
-          </Link> */}
         </div>
       </div>
 
@@ -86,21 +84,7 @@ export default function About() {
         <ArrowRight />
       </Link>
 
-      <div className="border-t flex  justify-between p-3 items-center  border-black bg-white text-black">
-        <Link
-          href="/"
-          className="playfair text-3xl font-bold tracking-tighter"
-        >
-          Medium
-        </Link>
-        <div className="flex flex-wrap justify-center gap-8 p-5 text-sm text-neutral-800 underline">
-          <Link href="/about">About</Link>
-          <Link href="/terms">Terms</Link>
-          <Link href="/privacy">Privacy</Link>
-          <Link href="/help">Help</Link>
-          <Link href="/press">Press</Link>
-        </div>
-      </div>
+      <Mediumfooter />
     </div>
   );
 }

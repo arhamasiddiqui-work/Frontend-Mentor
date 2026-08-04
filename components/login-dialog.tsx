@@ -38,7 +38,7 @@ export default function LoginDialog() {
         </div>
 
         <DialogTitle className="text-center text-3xl font-bold">
-          Login into your account
+          Login to your account (●&apos;◡&apos;●)
         </DialogTitle>
 
         <div className="mt-8 flex flex-col gap-3">

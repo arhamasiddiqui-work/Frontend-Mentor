@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function MediumFooter() {
+export default function MainMediumFooter() {
   return (
     <div className="border-t border-black">
       <div className="text-sm text-neutral-600 flex flex-wrap justify-center gap-8 p-5">
