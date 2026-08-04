@@ -1,13 +1,13 @@
-import Link from "next/link";
+import MediumFooter from "@/components/web/medium/footer/component";
+import MediumHeader from "@/components/web/medium/header/component";
+import MediumMain from "@/components/web/medium/main/component";
 
 export default function Home() {
   return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold">Hello world!</h1>
-
-      <div className="">
-        <Link href="/medium">Medium</Link>
-      </div>
+    <div className="bg-[#F7F4ED] ">
+      <MediumHeader/>
+      <MediumMain/>
+      <MediumFooter/>
     </div>
   );
 }
