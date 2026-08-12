@@ -9,8 +9,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Button } from "@base-ui/react";
 import { toast } from "sonner";
+import { Button } from "./ui/button";
 
 export default function LoginDialog() {
   const toastGoogle = () => {
@@ -21,11 +21,7 @@ export default function LoginDialog() {
   };
   return (
     <Dialog>
-      <DialogTrigger>
-        <button className="rounded-full bg-black px-4 py-2 text-white">
-          Get started
-        </button>
-      </DialogTrigger>
+      <DialogTrigger render={<Button>Get started</Button>}></DialogTrigger>
 
       <DialogContent className="max-w-md rounded-2xl p-8">
         <div className="flex justify-center">
@@ -43,7 +39,7 @@ export default function LoginDialog() {
 
         <div className="mt-8 flex flex-col gap-3">
           <button
-            className="flex w-full items-center gap-4 rounded-xl border p-4"
+            className="flex w-full items-center gap-4 rounded-xl border bg-gray-200/40 p-4"
             onClick={() => toastGoogle()}
           >
             <Image
@@ -56,7 +52,7 @@ export default function LoginDialog() {
           </button>
 
           <button
-            className="flex w-full items-center gap-4 rounded-xl border p-4"
+            className="flex w-full items-center gap-4 rounded-xl border bg-gray-200/40 p-4"
             onClick={() => toastGithub()}
           >
             <Image

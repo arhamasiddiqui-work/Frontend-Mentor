@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MediumMain() {
   return (
@@ -12,9 +13,12 @@ export default function MediumMain() {
           A place to read, write, and deepen your understanding.
         </p>
 
-        <button className="cursor-pointer rounded-full bg-black px-10 py-2 text-lg font-semibold text-white">
+        <Link
+          className="cursor-pointer rounded-full bg-black px-10 py-2 text-lg font-semibold text-white"
+          href="/posts"
+        >
           Start reading
-        </button>
+        </Link>
       </div>
       <div className="relative h-150 w-160 shrink-0">
         <Image

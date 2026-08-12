@@ -12,7 +12,7 @@ export default function MainMediumFooter() {
         <Link href="/careers">Careers</Link>
 
         <Link href="/press">Press</Link>
-        <Link href="/about">Blog</Link>
+        <Link href="/posts">Blog</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/terms">Terms</Link>
         <Link href="/text-to-speech">Text to Speech </Link>

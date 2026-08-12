@@ -3,9 +3,6 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function About() {
-  const linkClasses =
-    "flex items-center justify-between border-t border-white py-6 px-10 text-4xl font-serif transition-colors duration-400 hover:bg-white hover:text-black cursor-pointer";
-
   return (
     <div className="bg-[#242424] text-white">
       <div className="flex items-center justify-between border-b border-white p-5">
@@ -70,7 +67,7 @@ export default function About() {
 
       <Link
         href="/write"
-        className={linkClasses}
+        className="flex cursor-pointer items-center justify-between border-t border-white px-10 py-6 font-serif text-4xl transition-colors duration-400 hover:bg-white hover:text-black"
       >
         <p>Start writing</p>
         <ArrowRight />
@@ -78,7 +75,7 @@ export default function About() {
 
       <Link
         href="/membership"
-        className={linkClasses}
+        className="flex cursor-pointer items-center justify-between border-t border-white px-10 py-6 font-serif text-4xl transition-colors duration-400 hover:bg-white hover:text-black"
       >
         <p>Become a member</p>
         <ArrowRight />
