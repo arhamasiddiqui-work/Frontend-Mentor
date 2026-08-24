@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function MediumMain() {
   return (
     <div className="flex w-full items-center justify-between gap-10 overflow-hidden py-30">
-      <div className="max-w-3xl space-y-10 px-15 lg:ml-10 xl:ml-40">
+      <div className="space-y-10 px-15 lg:ml-10 xl:ml-40">
         <h1 className="playfair text-[110px] leading-23.75 tracking-tight">
           Human stories & ideas
         </h1>
