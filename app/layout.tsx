@@ -1,10 +1,8 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
+import { Toaster } from "sonner";
 import "./globals.css";
-import {Toaster} from "sonner";
-import { Playfair_Display } from "next/font/google";
-
 
 const inter = Inter({
   variable: "--font-inter",
@@ -15,7 +13,6 @@ const inter = Inter({
 //   variable: "--font-geist-mono",
 //   subsets: ["latin"],
 // });
-
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -36,9 +33,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} h-full antialiased`}
+      className={`${playfair.variable} antialiased`}
     >
-      <body className="flex min-h-full flex-col">
+      <body className="flex flex-col">
         <TooltipProvider>{children}</TooltipProvider>
         <Toaster position="top-right" />
       </body>
