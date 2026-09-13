@@ -1,4 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import BackToHomePage from "../back to home/page";
 
 export default function Page() {
   return (
@@ -10,7 +11,6 @@ export default function Page() {
             <div className="rounded-xl bg-purple-800 p-6 text-white">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2">
-                  {" "}
                   <Avatar className="h-10 w-10">
                     <AvatarImage
                       src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/20.png"
@@ -41,7 +41,6 @@ export default function Page() {
             <div className="rounded-xl bg-slate-600 p-6 text-white">
               <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-2">
-                  {" "}
                   <Avatar className="h-10 w-10">
                     <AvatarImage
                       src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/male/20.png"
@@ -70,7 +69,6 @@ export default function Page() {
             <div className="rounded-xl bg-slate-100 p-6">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2">
-                  {" "}
                   <Avatar className="h-10 w-10">
                     <AvatarImage
                       src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/22.png"
@@ -96,7 +94,6 @@ export default function Page() {
             <div className="rounded-xl bg-neutral-800 p-6 text-white">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2">
-                  {" "}
                   <Avatar className="h-10 w-10">
                     <AvatarImage
                       src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/male/26.png"
@@ -131,7 +128,6 @@ export default function Page() {
         <div className="flex-1 items-center justify-center rounded-xl bg-amber-50 p-6 lg:max-w-86">
           <div className="flex flex-col gap-4 lg:gap-7">
             <div className="flex items-center gap-2">
-              {" "}
               <Avatar className="h-10 w-10">
                 <AvatarImage
                   src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/25.png"
@@ -164,6 +160,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <BackToHomePage />
     </div>
   );
 }

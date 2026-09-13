@@ -1,4 +1,6 @@
-<div className="flex flex-col border-8 p-4 *:*:*:*:*:p-4 *:*:*:*:p-4 *:*:*:p-4 *:*:p-4 *:p-4 xl:min-h-dvh xl:items-center xl:justify-center">
+export default function Page() {
+  return (
+    <div className="flex flex-col border-8 p-4 *:*:*:*:*:p-4 *:*:*:*:p-4 *:*:*:p-4 *:*:p-4 *:p-4 xl:min-h-dvh xl:items-center xl:justify-center">
       <div className="flex flex-col border-8 xl:w-full xl:max-w-350 xl:flex-row">
         {/* 1 */}
         <div className="flex flex-col border-8 md:flex-row xl:flex-1 xl:flex-col">
@@ -11,7 +13,7 @@
           {/* 2-1 */}
           <div className="flex flex-col border-8 lg:flex-row">
             <div className="flex flex-col border-8 lg:flex-2">
-              <div className="h-50 bg-purple-500">Socail</div>
+              <div className="h-50 bg-purple-500">Social</div>
 
               <div className="flex flex-col border-8 md:flex-row">
                 <div className="h-50 bg-slate-100 md:flex-1">Manage</div>
@@ -32,3 +34,5 @@
         </div>
       </div>
     </div>
+  );
+}
