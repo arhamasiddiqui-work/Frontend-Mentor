@@ -3,7 +3,7 @@ import BackToHomePage from "../back to home/page";
 
 export default function QrCodeComponent() {
   return (
-    <div className="flex h-screen items-center justify-center bg-blue-100 ">
+    <div className="flex h-screen items-center justify-center bg-blue-100">
       <div className="h-fit w-67 rounded-xl bg-white p-3 shadow-2xl">
         <div className="h-50 rounded-xl bg-blue-500">
           <div className="flex items-center justify-center">
@@ -20,7 +20,7 @@ export default function QrCodeComponent() {
           </p>
         </div>
       </div>
-      <BackToHomePage/>
+      <BackToHomePage />
     </div>
   );
 }

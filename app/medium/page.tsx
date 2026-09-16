@@ -3,11 +3,11 @@ import { MenuIcon } from "lucide-react";
 
 export default function Medium() {
   return (
-    <div className="bg-black text-white p-3">
+    <div className="bg-black p-3 text-white">
       <header>
         <div>
           <Button className="bg-accent-foreground hover:bg-neutral-700">
-            <MenuIcon/>
+            <MenuIcon />
           </Button>
         </div>
         <div></div>

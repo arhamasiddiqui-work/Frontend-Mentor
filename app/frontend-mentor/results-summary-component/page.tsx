@@ -2,9 +2,9 @@ import BackToHomePage from "../back to home/page";
 
 export default function ResultsSummary() {
   return (
-    <div className="flex h-screen items-center justify-center bg-blue-200/60  max-sm:px-14">
+    <div className="flex h-screen items-center justify-center bg-blue-200/60 max-sm:px-14">
       <div className="flex h-fit w-full max-w-170 rounded-2xl bg-white max-sm:flex-col">
-        <div className="h-fit rounded-2xl  w-1/2 bg-indigo-600 max-sm:w-full">
+        <div className="h-fit w-1/2 rounded-2xl bg-indigo-600 max-sm:w-full">
           <div className="flex flex-col items-center justify-center gap-5 p-6 text-white">
             <p className="text-2xl text-white/70">Your Result</p>
             <button className="h-45 w-45 rounded-full bg-indigo-700 font-semibold transition-all duration-500 hover:-translate-y-1 hover:bg-indigo-800">
@@ -21,7 +21,7 @@ export default function ResultsSummary() {
           </div>
         </div>
 
-        <div className="flex w-1/2 flex-col gap-6 max-sm:w-full p-9">
+        <div className="flex w-1/2 flex-col gap-6 p-9 max-sm:w-full">
           <p className="text-2xl font-semibold">Summary</p>
 
           <div className="flex flex-col gap-3">

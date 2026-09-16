@@ -1,6 +1,8 @@
 import { ArrowRight, Sparkle } from "lucide-react";
 import BackToHomePage from "../back to home/page";
 
+
+
 export default function Page() {
   return (
     <div className="flex h-screen flex-col md:flex-row">

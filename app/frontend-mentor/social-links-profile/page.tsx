@@ -38,7 +38,7 @@ export default function SocialLinksProfile() {
           </button>
         </div>
       </div>
-      <BackToHomePage/>
+      <BackToHomePage />
     </div>
   );
 }

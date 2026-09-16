@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/frontend-mentor/sign-up-screen"  ],
   "exclude": ["node_modules"]
 }

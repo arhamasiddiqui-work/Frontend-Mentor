@@ -22,7 +22,7 @@ export default function Page() {
             </p>
           </div>
         </div>
-        <div className="flex-1">
+         <div className="flex-1">
           <div className="flex flex-col gap-4">
             <div className="animation-duration-[5s] animate-pulse rounded-lg bg-red-800 p-2 shadow-md">
               <div className="flex flex-col items-center justify-center gap-2 text-lg xl:flex-row">

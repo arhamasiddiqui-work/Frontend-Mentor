@@ -7,10 +7,10 @@ export default function Page() {
     <div className="flex flex-col items-center justify-center overflow-hidden bg-fuchsia-50/30 p-20 max-sm:text-center">
       <div className="flex items-center gap-20 max-sm:flex-col max-sm:gap-10">
         <div className="flex max-w-130 shrink-0 flex-col gap-5">
-          <h1 className="flex items-center justify-center text-6xl max-sm:text-5xl font-bold tracking-tight text-fuchsia-900">
+          <h1 className="flex items-center justify-center text-6xl font-bold tracking-tight text-fuchsia-900 max-sm:text-5xl">
             10,000+ of our users love our products.
           </h1>
-          <p className="text-xl max-sm:text-lg text-fuchsia-950">
+          <p className="text-xl text-fuchsia-950 max-sm:text-lg">
             We only provide great products combined with excellent customer
             service. See what our satisfied customers are saying about our
             services.
@@ -71,7 +71,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="mb-10 max-sm:w-full flex w-full flex-col items-center gap-5 max-sm:mt-15 md:mt-30 md:flex-row md:items-start lg:mt-40 lg:max-w-6xl">
+      <div className="mb-10 flex w-full flex-col items-center gap-5 max-sm:mt-15 max-sm:w-full md:mt-30 md:flex-row md:items-start lg:mt-40 lg:max-w-6xl">
         <div className="flex max-w-120 flex-col gap-5 rounded-2xl bg-fuchsia-950 p-8 text-white shadow-lg shadow-fuchsia-900">
           <div className="flex items-center gap-4">
             <Avatar className="h-10 w-10">

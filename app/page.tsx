@@ -14,11 +14,12 @@ export default function Home() {
       <Link href="/frontend-mentor/results-summary-component">
         Results summary
       </Link>
-
       <Link href="/frontend-mentor/stats-preview-card-component">
         Stats preview card
       </Link>
-
+      <Link href="/frontend-mentor/pod-request-access-landing-page">
+        Pod Request Access
+      </Link>
       <Link href="/frontend-mentor/hotel-booking-confirmation-page">
         Hotel booking confirmation page
       </Link>
@@ -35,7 +36,6 @@ export default function Home() {
         Social proof section
       </Link>
       <Link href="/frontend-mentor/bento-grid">Bento grid</Link>
-
       <Link href="/frontend-mentor/four-card-feature-section">
         Four card feature section
       </Link>
@@ -50,12 +50,17 @@ export default function Home() {
       <Link href="/frontend-mentor/intro-component-with-signup-form">
         Intro Component with signup form
       </Link>
-      <Link href="/frontend-mentor/pod-request-access-landing-page">
-        Pod Request Access
-      </Link>
       <Link href="/frontend-mentor/news-homepage">News Homepage</Link>
-      <Link href="/frontend-mentor/design-structure">Design Structure</Link>
+      <Link href="/frontend-mentor//loopstudios-landing-page">
+        Loop Studios
+      </Link>
+      <Link href="/frontend-mentor/newsletter-signup-form-with-success-message">
+        Newsletter
+      </Link>
+      <Link href="/frontend-mentor/sign-up-screen">Sign up screens</Link>
+      <Link href="/frontend-mentor/sign-in-shadcnui">Sign in UI</Link>
 
+      <Link href="/frontend-mentor/design-structure">Design Structure</Link>
     </div>
 
     // <div className="bg-[#F7F4ED] h-screen">

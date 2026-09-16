@@ -4,7 +4,7 @@ import BackToHomePage from "../back to home/page";
 
 export default function BlogPreviewCard() {
   return (
-    <div className="flex h-screen items-center justify-center bg-orange-300 ">
+    <div className="flex h-screen items-center justify-center bg-orange-300">
       <div className="h-107 w-80 rounded-xl bg-black">
         <div className="h-fit w-80 -translate-x-2 -translate-y-2 rounded-xl border border-black bg-white p-4 shadow-2xl transition-transform duration-300">
           <div className="relative h-40">
@@ -41,8 +41,7 @@ export default function BlogPreviewCard() {
           </div>
         </div>
       </div>
-      <BackToHomePage/>
+      <BackToHomePage />
     </div>
-    
   );
 }
