@@ -59,7 +59,12 @@ export default function Home() {
       </Link>
       <Link href="/frontend-mentor/sign-up-screen">Sign up screens</Link>
       <Link href="/frontend-mentor/sign-in-shadcnui">Sign in UI</Link>
+      <Link href="/frontend-mentor/maker-prelaunch-landing-page">
+        Maker Pre-Launch Landing Page With sign-in UI
+      </Link>
+      <Link href="/frontend-mentor/blogr-landing-page">Blogr Landing Page</Link>
 
+      <Link href="/frontend-mentor/age-calculator-app">Age calculator app</Link>
       <Link href="/frontend-mentor/design-structure">Design Structure</Link>
     </div>
 
