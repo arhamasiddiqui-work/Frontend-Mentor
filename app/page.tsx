@@ -65,7 +65,17 @@ export default function Home() {
       <Link href="/frontend-mentor/blogr-landing-page">Blogr Landing Page</Link>
 
       <Link href="/frontend-mentor/age-calculator-app">Age calculator app</Link>
+      <Link href="/frontend-mentor/faq-accordion-&-sign-in-ui">
+        FAQs Accordion Card{" "}
+      </Link>
+      <Link href="/frontend-mentor/contact-form">Contact Form</Link>
+      <Link href="/frontend-mentor/intro-section-with-dropdown-navigation">
+        Intro Section with Dropdown Navigation
+      </Link>
       <Link href="/frontend-mentor/design-structure">Design Structure</Link>
+      <Link href="/frontend-mentor/interactive-pricing-component">
+        Interactive pricing component
+      </Link>
     </div>
 
     // <div className="bg-[#F7F4ED] h-screen">
