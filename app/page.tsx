@@ -63,7 +63,6 @@ export default function Home() {
         Maker Pre-Launch Landing Page With sign-in UI
       </Link>
       <Link href="/frontend-mentor/blogr-landing-page">Blogr Landing Page</Link>
-
       <Link href="/frontend-mentor/age-calculator-app">Age calculator app</Link>
       <Link href="/frontend-mentor/faq-accordion-&-sign-in-ui">
         FAQs Accordion Card{" "}
@@ -72,10 +71,16 @@ export default function Home() {
       <Link href="/frontend-mentor/intro-section-with-dropdown-navigation">
         Intro Section with Dropdown Navigation
       </Link>
-      <Link href="/frontend-mentor/design-structure">Design Structure</Link>
       <Link href="/frontend-mentor/interactive-pricing-component">
         Interactive pricing component
       </Link>
+      <Link href="/frontend-mentor/pricing-component-with-toggle">
+        Pricing component with toggle
+      </Link>
+      <Link href="/frontend-mentor/coding-bootcamp-testimonials-slider">
+        Coding Bootcamp Testimonials Slider
+      </Link>
+      <Link href="/frontend-mentor/design-structure">Design Structure</Link>
     </div>
 
     // <div className="bg-[#F7F4ED] h-screen">
