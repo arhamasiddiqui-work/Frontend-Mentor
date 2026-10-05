@@ -4,10 +4,10 @@ import BackToHomePage from "../back to home/page";
 export default function Page() {
   return (
     <div className="flex min-h-screen flex-row items-center justify-center bg-zinc-300 *:p-10">
-      <div className="flex max-w-7xl flex-col gap-5 lg:flex-row">
+      <div className="flex max-w-7xl flex-col gap-5 lg:flex lg:flex-row">
         {/* 1 */}
         <div className="flex flex-2 flex-col gap-5 md:flex md:items-center md:justify-center">
-          <div className="flex flex-col gap-5 lg:flex-row">
+          <div className="flex flex-col gap-5 lg:flex lg:flex-row">
             <div className="rounded-xl bg-purple-800 p-6 text-white">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2">
@@ -65,7 +65,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-5 lg:flex-row">
+          <div className="flex flex-col gap-5 xl:flex-row">
             <div className="rounded-xl bg-slate-100 p-6">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2">

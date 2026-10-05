@@ -3,9 +3,9 @@ import BackToHomePage from "../back to home/page";
 
 export default function page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-950/95 text-white max-sm:py-10">
-      <div className="flex overflow-hidden rounded-lg max-sm:mb-10 max-sm:flex-col">
-        <div className="flex h-full w-75 shrink-0 flex-col gap-7 bg-amber-600/80 p-12">
+    <div className="flex min-h-screen items-center justify-center bg-linear-to-bt from-slate-100  to-slate-200 text-white py-10 p-8">
+      <div className="flex gap-6 *:rounded-xl md:grid md:grid-cols-2  w-full max-w-6xl  mx-auto lg:flex-row lg:flex flex-col flex-1">
+        <div className="flex  flex-col gap-7 bg-amber-600/80 flex-1 p-12">
           <div className="flex w-fit rounded-full bg-amber-600 p-2">
             <CarFront size="35" />
           </div>
@@ -18,7 +18,7 @@ export default function page() {
             Learn More →
           </button>
         </div>
-        <div className="flex h-full w-75 shrink-0 flex-col gap-7 bg-cyan-600/80 p-12">
+        <div className="flex  flex-col gap-7 bg-cyan-600/80 p-12 flex-1 ">
           <div className="w-fit rounded-full bg-cyan-600 p-2">
             <Car size="35" />
           </div>
@@ -31,7 +31,7 @@ export default function page() {
             Learn More →
           </button>
         </div>
-        <div className="flex h-full w-75 shrink-0 flex-col gap-7 bg-emerald-700/85 p-12">
+        <div className="flex  flex-col gap-7 bg-emerald-700/85 p-12 flex-1">
           <div className="w-fit rounded-full bg-emerald-700/99 p-2">
             <Gem size="35" />
           </div>
